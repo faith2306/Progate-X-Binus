@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "stylesheet.css">  
+    <title>The Paridise Hotel</title>        
+</head>            
+<body>
+    <div class="header">
+       <div class="header-list"> </div>
+           <ui>
+               <li>About</li>
+               <li>Rooms</li>
+               <li>Contact</li>
+            </ui>
+        <div class="header-logo">The Paridise Hotel</div> 
+           <img src="https://cdn.discordapp.com/attachments/840143969324367882/840548686358380584/The_Paradise_Hotel-removebg-preview.png" alt="logo">
+    </div>
+    <form action="index.html">
+        <div class="booking-form">
+            <div class="check-date">
+                <label for="arrival">ARRIVAL</label>
+                <input type="text" name="arrival" id="arrival" placeholder="Check-in date" onfocus="(this.type='date')">
+            </div>
+    
+            <div class="check-date">
+                <label for="departure">DEPARTURE</label>
+                <input type="text" name="departure" id="departure" placeholder="Check-out date" onfocus="(this.type='date')">
+            </div>
+    
+            <div class="quantity">
+                <label for="adult">ADULTS</label>
+                <input type="number" name="adult" id="adult" min="1" placeholder="Adult Quantity">
+            </div>
+    
+            <div class="quantity">
+                <label for="children">CHILDREN</label>
+                <input type="number" name="children" id="children" min="1" placeholder="Children Quantity">
+            </div>
+    
+            <input class="booking-submit" type="submit" value="CHECK AVAILABILITY">
+            
+        </div>
+    </form>
+    <section class="premium-rooms">
+            <div class="container">
+                <h3 class="heading">Premium Rooms</h3>
+                <hr size="1" width="15%" color="#A9A9A9">
+                <div class="grid">
+                    <div class="grid-item">
+                        <img src="assets\marvin-meyer-fBdlytm6Hp8-unsplash.jpg" width="100%" alt="" class="hotel-img">
+                        <h4 class="room-name">Terrace Suite</h4>
+                        <p class="room-price">
+                            <span class="price">Price:</span>
+                            <span class="amount">$150</span>
+                            <span class="time">/ per night</span>
+                        </p>
+                        <a class="btn">View Details</a>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="assets\roberto-nickson-emqnSQwQQDo-unsplash.jpg" width="100%" alt="" class="hotel-img">
+                        <h4 class="room-name">Executive Suite</h4>
+                        <p class="room-price">
+                            <span class="price">Price:</span>
+                            <span class="amount">$200</span>
+                            <span class="time">/ per night</span>
+                        </p>
+                        <div class="btn">View Details</div>
+                    </div>
+
+                    <div class="grid-item">
+                        <img src="assets\reisetopia-Y7WfCuz5tn0-unsplash.jpg" width="100%" alt="" class="hotel-img">
+                        <h4 class="room-name">Deluxe Suite</h4>
+                        <p class="room-price">
+                            <span class="price">Price:</span>
+                            <span class="amount">$100</span>
+                            <span class="time">/ per night</span>
+                        </p>
+                        <div class="btn">View Details</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+    </section>
+    <div class="amenities"> </div>
+
+    <h3>Our Amenities</h3>
+    <div class="facilities">
+      <img src="https://sultanjakarta.com/data/upload/images/823c97c0d94e6b570a893e38e23c962e_crop_920x530.jpg">
+      <div class="overlay">
+        <div class="amenitiesoverlay">
+          <p class="facilities-header">Swiimming Pool</p>
+          <p>This outdooor swimming pool is designed for adult guests. The pool operates from 6:00 AM - 9:00 PM daily, comes complete with comfortable chairs and patio umbrellas to maximize the experience while enjoy the facility. </p>
+        </div>
+      </div>
+    </div>
+    <div class="facilities">
+      <img src="https://sultanjakarta.com/data/upload/images/169b8519de09634ce1b9130b4c903359_crop_920x530.jpg">
+      <div class="overlay">
+        <div class="amenitiesoverlay">
+          <p class="facilities-header">Lagoon Spa</p>
+          <p>After a long and tiring day you deserve a pampering spa treatment. Whether you want to rejuvenate or unwind, our professional therapist is sure to deliver the most indulging spa services for your ultimate relaxation. </p>
+        </div>
+      </div>
+    </div>
+    <div class="facilities">
+      <img src="https://sultanjakarta.com/data/upload/images/8e89fba6b429584cb2b9716d29733b19_crop_920x530.jpg">
+      <div class="overlay">
+        <div class="amenitiesoverlay">
+          <p class="facilities-header">Children's Playground</p>
+          <p>Children’s playground is an excellent facility sets in the middle of our hotel. It is enthusiastically used by children of all ages, providing swing, slides and more.</p>
+        </div>
+      </div>
+    </div>
+    <div class="facilities">
+      <img src="https://sultanjakarta.com/data/upload/images/1436ffef7bdb5fe4c68ac50ed75ab52f_crop_920x530.jpg">
+      <div class="overlay">
+        <div class="amenitiesoverlay">
+          <p class="facilities-header">Event Hall</p>
+          <p>Event Hall located around The Paradise Hotel’s Infinity Pool, this venue is would be an excellent pick for guests who are planning to celebrate their wedding or birthday in an intimate setting.</p>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <footer>
+        <nav>
+            <img src = "The_Paradise_Hotel-removebg-preview.png">
+            <ul><h3>About</h3>        
+                <li><a href = "aboutus.html">About us</a></li>
+                <li><a href = "careers.html">Careers</a></li>
+                <li>Contact us
+                    <ul>
+                        <li>Email     : theparadisehotel@gmail.com</li>
+                        <li>Telephone : +62 3456 7890</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul><h3>Information</h3>
+                <li><a>Terms & Conditions</a></li>
+                <li><a>Privacy Policy</a></li>
+                <li><a>FAQ</a></li>
+            </ul>
+            <ul><h3>Connect with us</h3>
+                <li><a href = "https://www.facebook.com/theparadisehotel">Facebook</a></li>
+                <li><a href = "https://www.instagram.com/theparadisehotel/">Instagram</a></li>
+                <li><a href = "https://twitter.com/theparadisehotel">Twitter</a></li>
+            </ul>
+        </nav>
+        <copyright>©The Paradise Hotel 2021. All Rights Reserved.</copyright>
+    </footer>
+</body>
+</html>
