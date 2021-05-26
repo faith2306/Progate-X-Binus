@@ -11,12 +11,13 @@ li {
      width: 100%;
      padding: 15px 0;  
 }               
-.header {            
+header {            
      background-color: #C3C2B9; 
      height: 40px;}                                
 .header-logo {            
      float: left;            
      font-size: 36px;
+}
 .header-list {
      float: left; 
      color: black;
